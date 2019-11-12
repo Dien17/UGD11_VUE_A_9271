@@ -62,6 +62,7 @@
     </VContent>
     </div>
 </template>
+
 <script>
     export default {
         data () {
@@ -69,6 +70,7 @@
         drawer: null,
         items: [
         { title: 'User Controller', icon: 'mdi-human-male' },
+        { title: 'Sparepart Controller', icon: 'mdi-human-male' },
         ],
         }
         },

@@ -13,10 +13,15 @@ import Router from 'vue-router'
         name: 'UserController',
         path: '',
         component: loadView('userController')
+        },
+    {
+        name: 'SparepartController',
+        path: '',
+        component: loadView('sparepartController')
         }
         ]
     },
     ]
-    Vue.use(Router)
-    const router = new Router({mode: 'history', routes: routes})
-    export default router
+Vue.use(Router)
+const router = new Router({mode: 'history', routes: routes})
+export default router
